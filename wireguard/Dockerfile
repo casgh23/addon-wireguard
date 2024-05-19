@@ -58,7 +58,7 @@ LABEL \
     org.opencontainers.image.vendor="Home Assistant Community Add-ons" \
     org.opencontainers.image.authors="Franck Nijhof <frenck@addons.community>" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://addons.community" \
+    org.opencontainers.image.url="https://github.com/casgh23/addon-wireguard" \
     org.opencontainers.image.source="https://github.com/casgh23/addon-wireguard" \
     org.opencontainers.image.documentation="https://github.com/casgh23/addon-wireguard/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
