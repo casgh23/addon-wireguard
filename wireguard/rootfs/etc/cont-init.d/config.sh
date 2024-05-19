@@ -282,6 +282,8 @@ for peer in $(bashio::config 'peers|keys'); do
         echo ""
         echo "[Peer]"
         echo "PublicKey = ${server_public_key}"
+        echo "PersistentKeepalive = ${keep_alive}"
+        bashio::config.has_value "peers[${peer}].pre_shared_key" \
         echo "Endpoint = ${host}:${port}"
         echo "AllowedIPs = ${allowed_ips}"
         echo "PersistentKeepalive = ${keep_alive}"
