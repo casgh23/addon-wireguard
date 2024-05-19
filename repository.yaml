@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: test changes
+url: 'https://github.com/casgh23/addon-wireguard'
+maintainer: Awesome Maintainer <test@example.com>
